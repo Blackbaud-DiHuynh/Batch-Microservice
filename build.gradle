@@ -9,6 +9,10 @@ buildscript {
     }
 }
 
+task stage {
+  dependsOn buildscript
+}
+
 apply plugin: 'java'
 apply plugin: 'spring-boot'
 apply plugin: 'idea'
