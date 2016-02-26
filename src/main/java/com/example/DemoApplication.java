@@ -16,7 +16,7 @@ public class DemoApplication {
 		return "Hello Di";
 	}
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+//	public static void main(String[] args) {
+//		SpringApplication.run(DemoApplication.class, args);
+//	}
 }
